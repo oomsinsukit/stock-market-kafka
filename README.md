@@ -17,7 +17,7 @@ The goal of this project is to simulate real-time stock market data, stream it u
 ## Project Components
 
 ### 1. **Simulating Stock Market Data**
-   A Python script generates simulated stock market data, including stock symbols, prices, volume, and timestamps. This data is then pushed into Kafka topics for real-time streaming.
+   "A Python script simulates stock market data, including stock symbols, prices, volume, and timestamps, using data from the indexProcessed.csv file. This simulated data is then pushed into Kafka topics for real-time streaming, with yfinance used for ingesting stock data in a real scenario."
 
 ### 2. **Kafka Streaming**
    - Kafka Producers push the simulated stock data to Kafka topics in real time.
