@@ -46,3 +46,7 @@ The goal of this project is to simulate real-time stock market data, stream it u
 - **Kafka**: Install and set up Apache Kafka.
 - **AWS Account**: You need access to AWS S3, Glue, Athena, and Glue Crawlers.
 - **AWS CLI**: AWS CLI tool for accessing AWS services from your terminal.
+
+## Acknowledgements
+
+This project was inspired by the tutorial from [DarshilParmar](https://www.youtube.com/embed/KerNf0NANMo) on YouTube. The concepts and code were adapted from their tutorial.
