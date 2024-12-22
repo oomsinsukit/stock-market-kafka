@@ -1,4 +1,4 @@
-# Stock Market Real-Time Data Analysis Using Kafka
+# Stock Market Real-Time Data Analysis Using Kafka and AWS Service
 
 This project demonstrates the real-time processing and analysis of simulated stock market data using Kafka, with data storage and analysis on AWS services like S3, AWS Glue, and AWS Athena.
 
