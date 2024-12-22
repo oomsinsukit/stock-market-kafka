@@ -13,6 +13,7 @@ The goal of this project is to simulate real-time stock market data, stream it u
 - **AWS Crawler**: For automatically discovering and cataloging the structure of the data in S3.
 - **AWS Glue**: For transforming and preparing data for analysis.
 - **AWS Athena**: For querying the data stored in AWS S3 using SQL.
+- **AWS EC2**: For running Kafka brokers and other processing components.
 
 ## Project Components
 
@@ -39,6 +40,11 @@ The goal of this project is to simulate real-time stock market data, stream it u
 ### 6. **AWS Athena Queries**
    - AWS Athena is used to query the stock data stored in S3 using SQL.
    - Analytics can be performed to gain insights into stock trends, averages, and price movements.
+
+### 7. **AWS EC2**
+   - **Kafka on EC2**: You can deploy Kafka brokers on an EC2 instance to handle the real-time streaming of stock market data. Kafka requires distributed brokers for scalability and fault tolerance, and EC2 instances provide the necessary infrastructure to host and manage these brokers.
+   - **Running Scripts on EC2**: You can run the Python scripts (Kafka producers, consumers, and data simulation) on EC2 instances to process data and interact with AWS services.
+   - Ensure that the EC2 instances have proper security groups and IAM roles to interact with S3, Glue, and other AWS services.
 
 ## Requirements
 
