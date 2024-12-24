@@ -2,9 +2,13 @@
 
 This project demonstrates the real-time processing and analysis of simulated stock market data using Kafka, with data storage and analysis on AWS services like S3, AWS Glue, and AWS Athena.
 
-## Project Overview
+## Introduction 
+In this project, you will execute an End-To-End Data Engineering Project on Real-Time Stock Market Data using Kafka.
 
-The goal of this project is to simulate real-time stock market data, stream it using Apache Kafka, store it in AWS S3, and process the data using AWS Glue and Athena for analysis. It showcases a scalable, event-driven architecture for real-time data pipelines.
+We are going to use different technologies such as Python, Amazon Web Services (AWS), Apache Kafka, Glue, Athena, and SQL.
+
+## Architecture 
+<img src="Architecture.png">
 
 ### Tech Stack
 - **Python**: Used for simulating stock market data and interacting with AWS services.
@@ -18,7 +22,7 @@ The goal of this project is to simulate real-time stock market data, stream it u
 ## Project Components
 
 ### 1. **Simulating Stock Market Data**
-   "A Python script simulates stock market data, including stock symbols, prices, volume, and timestamps, using data from the indexProcessed.csv file. This simulated data is then pushed into Kafka topics for real-time streaming, with yfinance used for ingesting stock data in a real scenario."
+   "A Python script simulates stock market data, including stock symbols, prices, volume, and timestamps, using data ingested in real-time from yfinance. This simulated data is then pushed into Kafka topics for real-time streaming."
 
 ### 2. **Kafka Streaming**
    - Kafka Producers push the simulated stock data to Kafka topics in real time.
